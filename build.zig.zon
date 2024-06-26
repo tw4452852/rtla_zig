@@ -1,0 +1,22 @@
+.{
+    .name = "rtla",
+
+    .version = "6.9.0",
+
+    .dependencies = .{
+        .libtraceevent = .{
+            .url = "https://github.com/tw4452852/libtraceevent_zig/archive/refs/tags/1.8.3.tar.gz",
+            .hash = "12209cd9daf41bf39dcba965a73803d9e78c33c4d299e5471810683dedfe43aaabdb",
+        },
+        .libtracefs = .{
+            .url = "https://github.com/tw4452852/libtracefs_zig/archive/refs/tags/1.8.1.tar.gz",
+            .hash = "12208129c7b940055c63efa356ebb585eaa3f3848c68b2756105fd49f82c0e9f13c9",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}

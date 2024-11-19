@@ -9,8 +9,8 @@
             .hash = "122019090b162b378f4c63fb13264ab16d273e89ae6e3c816bffaa45f9b2c7e323b9",
         },
         .libtracefs = .{
-            .url = "https://github.com/tw4452852/libtracefs_zig/archive/refs/tags/1.8.1.tar.gz",
-            .hash = "12208129c7b940055c63efa356ebb585eaa3f3848c68b2756105fd49f82c0e9f13c9",
+            .url = "https://github.com/tw4452852/libtracefs_zig/archive/refs/tags/1.8.1-1.tar.gz",
+            .hash = "122095a5cb145d13f604e8fe208814163041a7cd2b676ae8e5d881c91a5fd874d01e",
         },
     },
 

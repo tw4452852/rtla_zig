@@ -5,8 +5,8 @@
 
     .dependencies = .{
         .libtraceevent = .{
-            .url = "https://github.com/tw4452852/libtraceevent_zig/archive/refs/tags/1.8.3.tar.gz",
-            .hash = "12209cd9daf41bf39dcba965a73803d9e78c33c4d299e5471810683dedfe43aaabdb",
+            .url = "https://github.com/tw4452852/libtraceevent_zig/archive/refs/tags/1.8.4.tar.gz",
+            .hash = "122019090b162b378f4c63fb13264ab16d273e89ae6e3c816bffaa45f9b2c7e323b9",
         },
         .libtracefs = .{
             .url = "https://github.com/tw4452852/libtracefs_zig/archive/refs/tags/1.8.1.tar.gz",

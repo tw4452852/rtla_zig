@@ -17,8 +17,6 @@ jobs:
           version: master
       - run: zig build -Dtarget=aarch64-linux-musl
       - run: zig build -Dtarget=x86_64-linux-musl
-      - run: zig build -Dtarget=aarch64-linux-gnu.2.30 # this is the minimal glibc version that supports gettid
-      - run: zig build -Dtarget=x86_64-linux-gnu.2.30 # this is the minimal glibc version that supports gettid
       - run: zig build
 
   lint:

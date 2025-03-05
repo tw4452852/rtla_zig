@@ -1,5 +1,5 @@
 .{
-    .name = "rtla",
+    .name = .rtla,
 
     .version = "6.9.0",
 
@@ -19,4 +19,6 @@
         "build.zig.zon",
         "src",
     },
+
+    .fingerprint = 0x407702e2577e3a6c,
 }
